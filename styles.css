@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #d35400;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Main section styles */
+main {
+    padding: 2em;
+}
+
+h2 {
+    color: #d35400;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+/* Menu item styles */
+.menu-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1em 0;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 120px;
+    border-radius: 8px;
+    margin-right: 1em;
+    object-fit: cover;
+}
+
+.menu-item h3 {
+    margin: 0 0 0.5em;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 0.5em 0;
+}
+
+.menu-item strong {
+    color: #e74c3c;
+}
+
+/* Section styles */
+.food, .drinks {
+    margin-bottom: 2em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .menu-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item img {
+        margin: 0 0 1em;
+        max-width: 100%;
+    }
+}
